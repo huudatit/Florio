@@ -1,0 +1,526 @@
+{
+  "categories": [
+    {
+      "id": "hoa-sinh-nhat",
+      "name": "Hoa sinh nhật",
+      "description": "Mẫu hoa chúc mừng sinh nhật sang trọng."
+    },
+    {
+      "id": "hoa-8-3",
+      "name": "Hoa 8/3",
+      "description": "Hoa đẹp dành tặng phái nữ ngày Quốc tế Phụ nữ."
+    },
+    {
+      "id": "hoa-tiec",
+      "name": "Hoa tiệc",
+      "description": "Hoa trang trí sự kiện, hội nghị và tiệc cưới."
+    },
+    {
+      "id": "hoa-valentine",
+      "name": "Hoa Valentine",
+      "description": "Hoa hồng tình yêu cho ngày lễ tình nhân."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Bó hoa hồng đỏ classic",
+      "category": "hoa-valentine",
+      "price": 500000,
+      "tags": ["hoa hồng", "đỏ"]
+    },
+    {
+      "id": 2,
+      "name": "Lẵng hoa hướng dương rạng rỡ",
+      "category": "hoa-sinh-nhat",
+      "price": 750000,
+      "tags": ["hướng dương", "vàng"]
+    },
+    {
+      "id": 3,
+      "name": "Hộp hoa baby trắng tinh khôi",
+      "category": "hoa-8-3",
+      "price": 400000,
+      "tags": ["hoa baby", "trắng"]
+    },
+    {
+      "id": 4,
+      "name": "Kệ hoa khai trương hồng phát",
+      "category": "hoa-tiec",
+      "price": 1500000,
+      "tags": ["hoa lan", "khai trương"]
+    },
+    {
+      "id": 5,
+      "name": "Bó hoa hồng Ohara thơm ngát",
+      "category": "hoa-valentine",
+      "price": 900000,
+      "tags": ["hoa hồng", "hồng"]
+    },
+
+    {
+      "id": 6,
+      "name": "Bó hoa tulip đỏ lãng mạn",
+      "category": "hoa-valentine",
+      "price": 650000,
+      "tags": ["tulip", "đỏ"]
+    },
+    {
+      "id": 7,
+      "name": "Giỏ hoa cẩm chướng dịu dàng",
+      "category": "hoa-8-3",
+      "price": 520000,
+      "tags": ["cẩm chướng", "hồng"]
+    },
+    {
+      "id": 8,
+      "name": "Bó hoa hướng dương năng lượng",
+      "category": "hoa-sinh-nhat",
+      "price": 680000,
+      "tags": ["hướng dương", "vàng"]
+    },
+    {
+      "id": 9,
+      "name": "Hộp hoa hồng pastel ngọt ngào",
+      "category": "hoa-valentine",
+      "price": 820000,
+      "tags": ["hoa hồng", "pastel"]
+    },
+    {
+      "id": 10,
+      "name": "Lẵng hoa lan tím sang trọng",
+      "category": "hoa-tiec",
+      "price": 1700000,
+      "tags": ["hoa lan", "tím"]
+    },
+    {
+      "id": 11,
+      "name": "Giỏ hoa baby mix nhiều màu",
+      "category": "hoa-sinh-nhat",
+      "price": 450000,
+      "tags": ["hoa baby", "mix"]
+    },
+    {
+      "id": 12,
+      "name": "Bó hoa hồng champagne cao cấp",
+      "category": "hoa-valentine",
+      "price": 980000,
+      "tags": ["hoa hồng", "champagne"]
+    },
+    {
+      "id": 13,
+      "name": "Lẵng hoa chúc mừng thành công",
+      "category": "hoa-tiec",
+      "price": 1350000,
+      "tags": ["hoa đồng tiền", "chúc mừng"]
+    },
+    {
+      "id": 14,
+      "name": "Hộp hoa tulip trắng tinh tế",
+      "category": "hoa-8-3",
+      "price": 700000,
+      "tags": ["tulip", "trắng"]
+    },
+    {
+      "id": 15,
+      "name": "Bó hoa mix hồng và baby",
+      "category": "hoa-sinh-nhat",
+      "price": 600000,
+      "tags": ["hoa hồng", "hoa baby"]
+    },
+    {
+      "id": 16,
+      "name": "Bó hoa tulip vàng ấm áp",
+      "category": "hoa-sinh-nhat",
+      "price": 620000,
+      "tags": ["tulip", "vàng"]
+    },
+    {
+      "id": 17,
+      "name": "Giỏ hoa cẩm tú cầu xanh",
+      "category": "hoa-8-3",
+      "price": 730000,
+      "tags": ["cẩm tú cầu", "xanh"]
+    },
+    {
+      "id": 18,
+      "name": "Bó hoa hồng trắng tinh khôi",
+      "category": "hoa-valentine",
+      "price": 550000,
+      "tags": ["hoa hồng", "trắng"]
+    },
+    {
+      "id": 19,
+      "name": "Lẵng hoa đồng tiền may mắn",
+      "category": "hoa-tiec",
+      "price": 1200000,
+      "tags": ["đồng tiền", "đỏ"]
+    },
+    {
+      "id": 20,
+      "name": "Hộp hoa tulip hồng nhẹ nhàng",
+      "category": "hoa-8-3",
+      "price": 760000,
+      "tags": ["tulip", "hồng"]
+    },
+
+    {
+      "id": 21,
+      "name": "Bó hoa hướng dương và baby",
+      "category": "hoa-sinh-nhat",
+      "price": 690000,
+      "tags": ["hướng dương", "baby"]
+    },
+    {
+      "id": 22,
+      "name": "Bó hoa hồng Ecuador đỏ đậm",
+      "category": "hoa-valentine",
+      "price": 1100000,
+      "tags": ["hoa hồng", "ecuador"]
+    },
+    {
+      "id": 23,
+      "name": "Giỏ hoa lan hồ điệp trắng",
+      "category": "hoa-tiec",
+      "price": 1800000,
+      "tags": ["lan hồ điệp", "trắng"]
+    },
+    {
+      "id": 24,
+      "name": "Hộp hoa baby hồng pastel",
+      "category": "hoa-8-3",
+      "price": 420000,
+      "tags": ["hoa baby", "hồng"]
+    },
+    {
+      "id": 25,
+      "name": "Bó hoa mix tulip và hồng",
+      "category": "hoa-valentine",
+      "price": 870000,
+      "tags": ["tulip", "hoa hồng"]
+    },
+
+    {
+      "id": 26,
+      "name": "Bó hoa hướng dương mini",
+      "category": "hoa-sinh-nhat",
+      "price": 520000,
+      "tags": ["hướng dương", "mini"]
+    },
+    {
+      "id": 27,
+      "name": "Lẵng hoa khai trương thịnh vượng",
+      "category": "hoa-tiec",
+      "price": 1600000,
+      "tags": ["khai trương", "lan"]
+    },
+    {
+      "id": 28,
+      "name": "Giỏ hoa hồng mix màu",
+      "category": "hoa-8-3",
+      "price": 640000,
+      "tags": ["hoa hồng", "mix"]
+    },
+    {
+      "id": 29,
+      "name": "Bó hoa tulip tím lãng mạn",
+      "category": "hoa-valentine",
+      "price": 720000,
+      "tags": ["tulip", "tím"]
+    },
+    {
+      "id": 30,
+      "name": "Hộp hoa cẩm tú cầu tím",
+      "category": "hoa-8-3",
+      "price": 780000,
+      "tags": ["cẩm tú cầu", "tím"]
+    },
+
+    {
+      "id": 31,
+      "name": "Bó hoa baby xanh nhẹ nhàng",
+      "category": "hoa-sinh-nhat",
+      "price": 460000,
+      "tags": ["hoa baby", "xanh"]
+    },
+    {
+      "id": 32,
+      "name": "Bó hoa hồng đỏ 99 bông",
+      "category": "hoa-valentine",
+      "price": 2500000,
+      "tags": ["hoa hồng", "99 bông"]
+    },
+    {
+      "id": 33,
+      "name": "Lẵng hoa chúc mừng khai trương lớn",
+      "category": "hoa-tiec",
+      "price": 2000000,
+      "tags": ["khai trương", "chúc mừng"]
+    },
+    {
+      "id": 34,
+      "name": "Giỏ hoa tulip trắng thanh lịch",
+      "category": "hoa-8-3",
+      "price": 710000,
+      "tags": ["tulip", "trắng"]
+    },
+    {
+      "id": 35,
+      "name": "Bó hoa hồng pastel mix baby",
+      "category": "hoa-valentine",
+      "price": 890000,
+      "tags": ["hoa hồng", "baby"]
+    },
+
+    {
+      "id": 36,
+      "name": "Bó hoa hướng dương lớn",
+      "category": "hoa-sinh-nhat",
+      "price": 790000,
+      "tags": ["hướng dương", "lớn"]
+    },
+    {
+      "id": 37,
+      "name": "Hộp hoa lan mini cao cấp",
+      "category": "hoa-tiec",
+      "price": 950000,
+      "tags": ["lan", "mini"]
+    },
+    {
+      "id": 38,
+      "name": "Giỏ hoa baby trắng và hồng",
+      "category": "hoa-8-3",
+      "price": 480000,
+      "tags": ["baby", "trắng"]
+    },
+    {
+      "id": 39,
+      "name": "Bó hoa hồng đỏ và tulip",
+      "category": "hoa-valentine",
+      "price": 930000,
+      "tags": ["hoa hồng", "tulip"]
+    },
+    {
+      "id": 40,
+      "name": "Lẵng hoa đồng tiền vàng",
+      "category": "hoa-tiec",
+      "price": 1250000,
+      "tags": ["đồng tiền", "vàng"]
+    },
+
+    {
+      "id": 41,
+      "name": "Bó hoa baby nhiều màu",
+      "category": "hoa-sinh-nhat",
+      "price": 470000,
+      "tags": ["hoa baby", "mix"]
+    },
+    {
+      "id": 42,
+      "name": "Giỏ hoa cẩm chướng đỏ",
+      "category": "hoa-8-3",
+      "price": 510000,
+      "tags": ["cẩm chướng", "đỏ"]
+    },
+    {
+      "id": 43,
+      "name": "Bó hoa tulip mix nhiều màu",
+      "category": "hoa-valentine",
+      "price": 760000,
+      "tags": ["tulip", "mix"]
+    },
+    {
+      "id": 44,
+      "name": "Kệ hoa lan khai trương sang trọng",
+      "category": "hoa-tiec",
+      "price": 2100000,
+      "tags": ["lan", "khai trương"]
+    },
+    {
+      "id": 45,
+      "name": "Hộp hoa hồng đỏ velvet",
+      "category": "hoa-valentine",
+      "price": 990000,
+      "tags": ["hoa hồng", "velvet"]
+    },
+
+    {
+      "id": 46,
+      "name": "Bó hoa hướng dương mix tulip",
+      "category": "hoa-sinh-nhat",
+      "price": 810000,
+      "tags": ["hướng dương", "tulip"]
+    },
+    {
+      "id": 47,
+      "name": "Giỏ hoa lan hồ điệp tím",
+      "category": "hoa-tiec",
+      "price": 1750000,
+      "tags": ["lan hồ điệp", "tím"]
+    },
+    {
+      "id": 48,
+      "name": "Bó hoa hồng trắng và baby",
+      "category": "hoa-valentine",
+      "price": 640000,
+      "tags": ["hoa hồng", "baby"]
+    },
+    {
+      "id": 49,
+      "name": "Hộp hoa tulip vàng sang trọng",
+      "category": "hoa-8-3",
+      "price": 720000,
+      "tags": ["tulip", "vàng"]
+    },
+    {
+      "id": 50,
+      "name": "Bó hoa mix hồng, tulip và baby",
+      "category": "hoa-sinh-nhat",
+      "price": 880000,
+      "tags": ["hoa hồng", "tulip"]
+    },
+    {
+      "id": 51,
+      "name": "Bó hoa ly trắng thanh khiết",
+      "category": "hoa-sinh-nhat",
+      "price": 720000,
+      "tags": ["hoa ly", "trắng"]
+    },
+    {
+      "id": 52,
+      "name": "Giỏ hoa mẫu đơn cao cấp",
+      "category": "hoa-8-3",
+      "price": 980000,
+      "tags": ["mẫu đơn", "hồng"]
+    },
+    {
+      "id": 53,
+      "name": "Bó hoa lavender thơm dịu",
+      "category": "hoa-valentine",
+      "price": 650000,
+      "tags": ["lavender", "tím"]
+    },
+    {
+      "id": 54,
+      "name": "Lẵng hoa lan mokara sang trọng",
+      "category": "hoa-tiec",
+      "price": 1600000,
+      "tags": ["lan mokara", "cam"]
+    },
+    {
+      "id": 55,
+      "name": "Bó hoa thạch thảo tím nhẹ nhàng",
+      "category": "hoa-8-3",
+      "price": 480000,
+      "tags": ["thạch thảo", "tím"]
+    },
+
+    {
+      "id": 56,
+      "name": "Giỏ hoa cẩm tú cầu pastel",
+      "category": "hoa-sinh-nhat",
+      "price": 820000,
+      "tags": ["cẩm tú cầu", "pastel"]
+    },
+    {
+      "id": 57,
+      "name": "Bó hoa mao lương lãng mạn",
+      "category": "hoa-valentine",
+      "price": 740000,
+      "tags": ["mao lương", "hồng"]
+    },
+    {
+      "id": 58,
+      "name": "Hộp hoa salem tím vintage",
+      "category": "hoa-8-3",
+      "price": 450000,
+      "tags": ["salem", "tím"]
+    },
+    {
+      "id": 59,
+      "name": "Bó hoa dạ lan hương thơm ngát",
+      "category": "hoa-valentine",
+      "price": 790000,
+      "tags": ["hyacinth", "tím"]
+    },
+    {
+      "id": 60,
+      "name": "Lẵng hoa lan hồ điệp vàng",
+      "category": "hoa-tiec",
+      "price": 1900000,
+      "tags": ["lan hồ điệp", "vàng"]
+    },
+
+    {
+      "id": 61,
+      "name": "Bó hoa sen hồng thanh tao",
+      "category": "hoa-sinh-nhat",
+      "price": 690000,
+      "tags": ["hoa sen", "hồng"]
+    },
+    {
+      "id": 62,
+      "name": "Giỏ hoa protea độc đáo",
+      "category": "hoa-8-3",
+      "price": 1100000,
+      "tags": ["protea", "hồng"]
+    },
+    {
+      "id": 63,
+      "name": "Bó hoa cẩm tú cầu xanh dương",
+      "category": "hoa-valentine",
+      "price": 780000,
+      "tags": ["cẩm tú cầu", "xanh"]
+    },
+    {
+      "id": 64,
+      "name": "Lẵng hoa lan mokara đỏ",
+      "category": "hoa-tiec",
+      "price": 1650000,
+      "tags": ["lan mokara", "đỏ"]
+    },
+    {
+      "id": 65,
+      "name": "Bó hoa lavender và baby",
+      "category": "hoa-valentine",
+      "price": 720000,
+      "tags": ["lavender", "baby"]
+    },
+
+    {
+      "id": 66,
+      "name": "Hộp hoa mẫu đơn trắng",
+      "category": "hoa-8-3",
+      "price": 930000,
+      "tags": ["mẫu đơn", "trắng"]
+    },
+    {
+      "id": 67,
+      "name": "Giỏ hoa thạch thảo và salem",
+      "category": "hoa-sinh-nhat",
+      "price": 510000,
+      "tags": ["thạch thảo", "salem"]
+    },
+    {
+      "id": 68,
+      "name": "Bó hoa mao lương pastel",
+      "category": "hoa-valentine",
+      "price": 760000,
+      "tags": ["mao lương", "pastel"]
+    },
+    {
+      "id": 69,
+      "name": "Lẵng hoa lan hồ điệp trắng lớn",
+      "category": "hoa-tiec",
+      "price": 2100000,
+      "tags": ["lan hồ điệp", "trắng"]
+    },
+    {
+      "id": 70,
+      "name": "Bó hoa mix lavender và tulip",
+      "category": "hoa-sinh-nhat",
+      "price": 840000,
+      "tags": ["lavender", "tulip"]
+    }
+  ]
+}
