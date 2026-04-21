@@ -96,7 +96,12 @@ export const createProduct = async (req, res) => {
       return res.status(400).json({ message: "Thiếu thông tin sản phẩm!" });
     }
 
-    const newProduct = new Product({
+    const categroryExists = await Category.findById(category);
+    if (!categroryExists) {
+      return res.status(404).json({ message: "Danh mục không tồn tại!" });
+    }
+
+    const newProduct = new Product.create({
       name,
       category,
       price,
@@ -104,11 +109,10 @@ export const createProduct = async (req, res) => {
       imageUrl: imageUrl || "https://placehold.co/600x400?text=Florio+Flower"
     });
 
-    await newProduct.save();
-
-    return res.status(201).json({ newProduct });
+    return res.status(201).json({ message: "Tạo sản phẩm thành công!", product: newProduct });
 
   } catch (error) {
-    
+    console.error("Lỗi khi gọi createProduct", error);
+    return res.status(500).json({ message: "Lỗi hệ thống" });
   }
 };

@@ -106,7 +106,7 @@ export const signOut = async (req, res) => {
 export const refreshToken = async (req, res) => {
   try {
     const token = req.cookies?.refreshToken;
-    if (!Token) {
+    if (!token) {
       return res.status(401).json({ message: "Token không tồn tại!" });
     }
 
@@ -116,12 +116,12 @@ export const refreshToken = async (req, res) => {
       return res.status(403).json({ message: "Token không hợp lệ hoặc đã hết hạn!" });
     }
 
-    if (session.expiresaAt < new Date()) {
+    if (session.expiresAt < new Date()) {
       return res.status(403).json({ message: "Token đã hết hạn!" });
     }
 
     const accessToken = jwt.sign(
-      { userId: user._id },
+      { userId: session.userId },
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: ACCESS_TOKEN_TTL }
     );
