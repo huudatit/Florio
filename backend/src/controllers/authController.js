@@ -77,7 +77,19 @@ export const signIn = async (req, res) => {
       maxAge: REFRESH_TOKEN_TTL
     });
 
-    return res.status(200).json({ message: `User ${user.username} đã logged in`, accessToken });
+    const userInfo = {
+      _id: user._id,
+      username: user.username,
+      email: user.email,
+      role: user.role,
+    };
+    return res
+      .status(200)
+      .json({
+        message: `User ${user.username} đã logged in`,
+        accessToken,
+        user: userInfo,
+      });
 
   } catch (error) {
     console.error("Lỗi khi gọi signIn", error);
